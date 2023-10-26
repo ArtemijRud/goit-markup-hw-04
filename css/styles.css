@@ -343,30 +343,32 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-/* .social-list {
+.social-list {
 display: flex;
 column-gap: 24px;
+margin-left: 16px;
+margin-top: 8px;
 }
 
 .social-list-item {
-
+background-color: #4D5AE5;
+border-radius: 50px;
+width: 40px;
+height: 40px;
+padding: 12px;
 }
 
-.social-list-link {
+/* /* .social-list-link {
 
 }
 
 .social-list-icon {
 
-}
-
-.substrate {
-  background-color: #4D5AE5;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  border: 1px solid #4D5AE5
 } */
+
+/* .substrate {
+
+} */ */
 
 /* Our Portfolio */
 
