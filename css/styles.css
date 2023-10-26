@@ -148,6 +148,13 @@ background: #2E2F42;
 max-width: 1440px;
 max-height: 600px;
 padding: 188px 0;
+background-image: linear-gradient(
+  rgba(46, 47, 66, 0.7), 
+  rgba(46, 47, 66, 0.7)
+  ), 
+  url(../images/people-office.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 .border-size {
@@ -168,10 +175,6 @@ max-width: 496px;
 text-align: center;
 margin-left: auto;
 margin-right: auto;
-}
-
-.button{
-  display: block;
 }
 
 .button {
@@ -223,6 +226,25 @@ font-size: 16px;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+  }
+
+.back-border{
+width: 264px;
+height: 112px;
+border-radius: 4px;
+border: 1px solid #8E8F99;
+background: #F4F4FD;
+margin-right: 24px;
+margin-bottom: 8px;
+
+  }
+
+  .benefits-icon{
+    display: flex;
+    margin-top: 24px;
+    margin-right: auto;
+    margin-left: auto;
+
   }
 
 .display-section {
@@ -320,6 +342,31 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+
+/* .social-list {
+display: flex;
+column-gap: 24px;
+}
+
+.social-list-item {
+
+}
+
+.social-list-link {
+
+}
+
+.social-list-icon {
+
+}
+
+.substrate {
+  background-color: #4D5AE5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #4D5AE5
+} */
 
 /* Our Portfolio */
 
