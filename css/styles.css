@@ -398,6 +398,7 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link:hover,
@@ -599,8 +600,6 @@ width: 40px;
 height: 40px;
 padding: 8px;
 border-radius: 50%;
-height:100%;
-width:100%;
 }
 
 .footer-social-list-item:hover,
@@ -622,5 +621,5 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-list-icon {
-  fill: #f4f4fd;
+fill: #f4f4fd;
 }
